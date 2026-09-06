@@ -456,6 +456,9 @@ a {
   #header .navbar .logo {
     width: 150px;
   }
+   #home .container .content img{
+    display: none;
+  }
   #home .container .content,
   #menu .container .row,
   #testimonials .container .row,
@@ -467,9 +470,6 @@ a {
   #home .container .content .content-text {
     padding: 100px 0 0 0;
   }
-  #home .container .content img{
-    display: none;
-  }
   #home .container .content .content-text h1 {
     font-size: 50px;
   }
@@ -477,7 +477,7 @@ a {
     width: 100%;
   }
   #menu .container .row {
-    gap: 1.2rem;
+    gap: 1.5rem;
   }
   #testimonials .container .row {
     gap: 4.5rem;
