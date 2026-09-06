@@ -268,7 +268,7 @@ a {
   gap: 2.5rem;
 }
 #testimonials .container .row .col {
-    display: contents;
+  display: contents;
 }
 #testimonials .container .row .col .item {
   background-color: var(--bg-secondary);
@@ -421,60 +421,54 @@ a {
   #header .navbar details ul li:hover {
     background-color: #e7e7e6dd;
   }
-    #home{
-    background-image:none;
+  #home {
+    background-image: none;
   }
-    #home .container .content .content-text h1 {
+  #home .container .content .content-text h1 {
     font-size: 40px;
   }
 
-  #about .container .content{
+  #about .container .content {
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
   }
-  /* #menu .container .row{
-    flex-wrap: wrap;
-  } */
-    #menu .container .row {
+  #menu .container .row {
     gap: 30px 2rem;
   }
 
-  #menu .container .row .col .item{
-  padding: 15px 10px;
-
+  #menu .container .row .col .item {
+    padding: 15px 10px;
   }
-  
-   #menu .container .row .col .item .details p {
-  line-height: 1.3;
-}
-#menu .container .row .col .item img {
-  width: 50px;
-  height: 50px;
-  margin-left: -30px;
 
-}
-#menu .container .row .col .item .price {
-  padding: 10px;
-}
-
+  #menu .container .row .col .item .details p {
+    line-height: 1.3;
+  }
+  #menu .container .row .col .item img {
+    width: 50px;
+    height: 50px;
+    margin-left: -30px;
+  }
+  #menu .container .row .col .item .price {
+    padding: 10px;
+  }
 }
 @media (max-width: 767px) {
   #header .navbar .logo {
     width: 150px;
   }
-  #home {
-    background-image: none;
-  }
   #home .container .content,
   #menu .container .row,
-   #testimonials .container .row,
+  #testimonials .container .row,
   #contact .container .row,
   #footer .footer-top .container .row {
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
   }
-  #home .container .content .content-text{
+  #home .container .content .content-text {
     padding: 100px 0 0 0;
+  }
+  #home .container .content img{
+    display: none;
   }
   #home .container .content .content-text h1 {
     font-size: 50px;
@@ -482,10 +476,10 @@ a {
   #about .container .content img {
     width: 100%;
   }
-  #menu .container .row{
-    gap: 0rem;
+  #menu .container .row {
+    gap: 1.2rem;
   }
-   #testimonials .container .row{
+  #testimonials .container .row {
     gap: 4.5rem;
   }
 }
