@@ -453,6 +453,9 @@ a {
   }
 }
 @media (max-width: 767px) {
+  .heading h2 {
+  font-size: 32px;
+}
   #header .navbar .logo {
     width: 150px;
   }
@@ -482,4 +485,5 @@ a {
   #testimonials .container .row {
     gap: 4.5rem;
   }
+  
 }
