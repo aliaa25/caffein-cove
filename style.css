@@ -210,14 +210,16 @@ a {
 #menu .container .row {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: stretch;
+  /* align-items: stretch; */
   margin-top: 2rem;
-  gap: 4rem;
+  gap: 30px 4rem;
+}
+#menu .container .row .col {
+  display: contents;
 }
 #menu .container .row .col .item {
   display: flex;
   justify-content: space-between;
-  margin: 30px 0;
   border: 1px solid #ddd;
   padding: 25px 20px;
   cursor: pointer;
@@ -264,6 +266,9 @@ a {
   grid-template-columns: repeat(3, 1fr);
   align-items: stretch;
   gap: 2.5rem;
+}
+#testimonials .container .row .col {
+    display: contents;
 }
 #testimonials .container .row .col .item {
   background-color: var(--bg-secondary);
@@ -430,6 +435,10 @@ a {
   /* #menu .container .row{
     flex-wrap: wrap;
   } */
+    #menu .container .row {
+    gap: 30px 2rem;
+  }
+
   #menu .container .row .col .item{
   padding: 15px 10px;
 
